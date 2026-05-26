@@ -23,7 +23,7 @@ export default function StudentDashboard() {
       <View style={{ paddingTop: 60, paddingHorizontal: 20, paddingBottom: 12 }}>
         <Text style={typography.h1}>dashboard</Text>
         <Text style={[typography.small, { marginTop: 4 }]}>
-          {events ? `${events.length} items` : "—"}
+          {events ? `${events.length} items` : "-"}
         </Text>
       </View>
 
@@ -72,7 +72,7 @@ export default function StudentDashboard() {
                 }} />
               </View>
               <Text style={{ fontSize: 12, fontWeight: "700", color: colors.accent }}>
-                {event.priority?.toFixed(1) ?? "—"}
+                {event.priority?.toFixed(1) ?? "-"}
               </Text>
             </View>
           </View>

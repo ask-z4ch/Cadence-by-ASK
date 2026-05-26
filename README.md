@@ -1,22 +1,22 @@
 # cadence
 
-a coordination platform for universities. replaces fragmented tools — whatsapp groups, scattered emails, static spreadsheets — with a single real-time system for students, faculty, and administration.
+a coordination platform for universities. replaces fragmented tools - whatsapp groups, scattered emails, static spreadsheets - with a single real-time system for students, faculty, and administration.
 
 ---
 
 ## features
 
-**role-based access** — each user sees what they need. students track deadlines and submissions. faculty manage assessments and schedules. administrators have full oversight.
+**role-based access** - each user sees what they need. students track deadlines and submissions. faculty manage assessments and schedules. administrators have full oversight.
 
-**priority feed** — academic items are ranked by urgency and importance using a weighted formula based on days remaining, event type, and marks weightage.
+**priority feed** - academic items are ranked by urgency and importance using a weighted formula based on days remaining, event type, and marks weightage.
 
-**clash detection** — when two events overlap for the same batch, the system flags the conflict, notifies involved users, and logs it for admin resolution.
+**clash detection** - when two events overlap for the same batch, the system flags the conflict, notifies involved users, and logs it for admin resolution.
 
-**assignment workflow** — students upload submissions, faculty grade them, status propagates in real time.
+**assignment workflow** - students upload submissions, faculty grade them, status propagates in real time.
 
-**broadcast system** — administrators send targeted announcements to all users, filtered by role.
+**broadcast system** - administrators send targeted announcements to all users, filtered by role.
 
-**notifications** — in-app alerts for deadlines, clashes, broadcasts, and schedule changes.
+**notifications** - in-app alerts for deadlines, clashes, broadcasts, and schedule changes.
 
 ---
 
@@ -52,7 +52,7 @@ visit `http://localhost:8081` for web, or scan the QR code with expo go for mobi
 ## project structure
 
 ```
-convex/              backend — schema, server functions, auth
+convex/              backend - schema, server functions, auth
   schema.ts          7 tables: users, departments, batches, events,
                     submissions, clashes, notifications
   auth.ts            register / login
@@ -78,13 +78,13 @@ src/
 
 seven tables in convex's embedded database:
 
-- **users** — name, email, role, department, batch
-- **departments** — name, code, faculty associations
-- **batches** — year, section, linked to department
-- **events** — exams, assignments, classes, university events
-- **submissions** — student uploads, grading status, marks
-- **clashes** — detected conflicts, severity, resolution
-- **notifications** — alerts, broadcasts, delivery status
+- **users** - name, email, role, department, batch
+- **departments** - name, code, faculty associations
+- **batches** - year, section, linked to department
+- **events** - exams, assignments, classes, university events
+- **submissions** - student uploads, grading status, marks
+- **clashes** - detected conflicts, severity, resolution
+- **notifications** - alerts, broadcasts, delivery status
 
 ---
 
@@ -104,4 +104,4 @@ higher scores appear first in the feed.
 
 ## license
 
-mit
+gnu agpl v3

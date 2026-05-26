@@ -5,7 +5,7 @@
   "main": "expo-router/entry",
   "keywords": ["university", "academic", "scheduling", "education", "student"],
   "license": "MIT",
-  "author": "ask-z4ch",
+  "author": "Abhisumat Kashyap <abhisumatkashyap@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ask-z4ch/Cadence-by-ASK.git"
